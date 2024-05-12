@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cornsilk;
+        }
+        span.quis {
+            background-color: yellow;
+        }
+        span.ipsum{
+            background-color: coral;
+        }
+        div{
+            width: 90%;
+            background-color: white;
+        }
+        div.article1{
+            border: 1px solid black;
+            padding: 6px 6px;
+        }
+        div.article2 {
+            border: 2px dashed black;
+            padding: 6px 6px;
+        }
+        #p2 {
+            border: 2px dashed red;
+            padding: 2px;
+        }
+        .color {
+            color:darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Articles</h1>
+    <div class="article1">
+        <h2>Heading Num. 2</h2>
+        <p>Lorem <span class="ipsum">ipsum</span> dolor sit amet, consectetur adipiscing elit.
+            Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+             Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+              Praesent scelerisque tortor sed accumsan convallis.Lorem <span class="ipsum">ipsum</span>ipsum dolor sit amet, consectetur adipiscing elit.
+               Maecenas sit amet pretium urna. Vivamus venenatis velit nec   neque ultricies, eget elementum magna tristique.
+                Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+               Praesent scelerisque tortor sed accumsan convallis.Loremdolor sit amet, . consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                 Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus<span class="quis">quis</span> quam orci in velit.
+                Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+    <br>
+    <div class="article2">
+        <h2>Heading Num. 2</h2>
+        <p id="p2">
+            Lorem dolor sit amet, consectetur adipiscing elit.
+            Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+             Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+              Praesent scelerisque tortor <span class="ipsum">ipsum</span> sed accumsan convallis.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+               Praesent scelerisque tortor sed accumsan convallis.Lorem ipsum dolor sit amet, . consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                 Quisque vehicula, risus eget aliquam placerat,<span class="quis">quis</span> purus leo tincidunt eros, eget luctus quam orci in velit.
+                Praesent scelerisque tortor sed accumsan convallis 
+        </p>
+    </div>
+    <br>
+    <div class="article1">
+        <h2 class="color">Heading Num. 2</h2>
+        <p class="color">
+            Lorem dolor sit amet, consectetur adipiscing elit.
+            Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+             Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+              Praesent scelerisque tortor sed accumsan <span class="quis">quis</span> convallis.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+               Praesent scelerisque tortor sed accumsan convallis.Lorem ipsum dolor sit amet,. consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                 Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, <span class="quis">quis</span> eget luctus quam orci in velit.
+                Praesent scelerisque tortor sed accumsan convallis 
+        </p>
+    </div>
+</body>
+</html>
