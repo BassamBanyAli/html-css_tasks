@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            
+        }
+        .one{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+        .two{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+        #two{
+            position: relative;
+            left: 20px;
+            top: 20px;
+
+        }
+        #green{
+            position: absolute;
+            top: 10px;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>position:static</h2>
+    <div class="container">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="one">three</div>
+        <div class="one">four</div>
+
+    </div>
+    <h2>position:relative</h2>
+    <div class="container">
+        <div class="one">one</div>
+        <div class="two" id="two">two</div>
+        <div class="one">three</div>
+        <div class="one">four</div>
+
+    </div>
+    <h2>position:absolute</h2></div>
+    <div>
+        <div class="container">
+            <div style="position: relative;">
+            <div class="one">one</div>
+            <div class="two" id="green">two</div>
+        </div>
+            <div class="one">three</div>
+            <div class="one">four</div>
+    </div>
+</body>
+</html>
